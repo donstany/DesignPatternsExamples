@@ -1,0 +1,9 @@
+﻿netent,slots,12,2018-10-10,10
+netent,slots,12,2018-10-10,11
+netent,slots,12,2018-11-11,12
+netent,slots,12,2018-11-10,13
+netent,slots,12,2018-10-19,14
+netent,slots,12,2018-10-10,14
+netent,slots,12,2018-10-10,9
+netent,slots,12,2018-10-15,1
+netent,slots,12,2018-10-12,1
