@@ -10,15 +10,14 @@ namespace DesignPatternsExamples
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-    
             List<IBet> listОfBets = new List<IBet>();
             StreamReader readerOfSportsBets;
             StreamReader readerOfCasinoBets;
             string line;
 
-            using (readerOfSportsBets = new StreamReader(Config.INSTANCE.SportBetsFile))
+            using (readerOfSportsBets = new StreamReader(SingeltonConfig.INSTANCE.SportBetsFile))
             {
                 while ((line = readerOfSportsBets.ReadLine()) != null)
                 {
@@ -36,7 +35,7 @@ namespace DesignPatternsExamples
             }
 
 
-            using (readerOfCasinoBets = new StreamReader(Config.INSTANCE.CasinoBetsFile))
+            using (readerOfCasinoBets = new StreamReader(SingeltonConfig.INSTANCE.CasinoBetsFile))
             {
                 while ((line = readerOfCasinoBets.ReadLine()) != null)
                 {

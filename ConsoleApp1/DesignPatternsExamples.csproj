@@ -50,7 +50,8 @@
     <Compile Include="Chain\StakeProcessor.cs" />
     <Compile Include="Entities\CasinoBet.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="SingletonConfiguration\SingletonLazyConfig.cs" />
+    <Compile Include="SingletonConfiguration\SingletonConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\SportBet.cs" />
   </ItemGroup>
